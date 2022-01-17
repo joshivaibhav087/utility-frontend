@@ -1,0 +1,121 @@
+.table-main {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  tbody,
+  td,
+  tfoot,
+  thead,
+  tr {
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    height: 30px;
+  }
+  
+  .buttons-excel {
+    background-color: rgb(233, 224, 224);
+    border: none;
+    border-radius: 15%;
+    color: black;
+  }
+  .buttons-excel:hover {
+    background-color: grey;
+    cursor: pointer;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: rgb(0, 0, 0, 0.05);
+  }
+  
+  thead tr {
+    background-color: #861f41;
+    color: white !important;
+    border: 2px solid black;
+  }
+  
+  th {
+    font-weight: normal;
+    padding: 15px;
+    border: 1px solid black;
+  }
+  
+  .scroll-table {
+    padding-top: 10px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  
+  th.sortable {
+    color: white;
+  }
+  
+  
+  .btn:focus,
+  .btn:active:focus,
+  .btn.active:focus {
+    box-shadow: none !important;
+  }
+  td {
+    margin-top: 15px !important;
+    padding: 1px !important;
+    text-align: center !important;
+    font-family: "Times new roman";
+  }
+  
+  .left {
+    transform: translate(-105%, -50%);
+  }
+  
+  .pagination .page-item:first-of-type {
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+  }
+  
+  .pagination .page-item:last-of-type {
+    border-top-right-radius: 20%;
+    border-bottom-right-radius: 20%;
+  }
+  
+  .disabled a {
+    color: #6c757d;
+  }
+  
+  .page-item {
+    padding: 5px;
+    border: 1px solid black;
+  }
+  
+  .page-link {
+    text-decoration: none;
+  }
+  
+  .page-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+    margin-top: 15px;
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+    width: 100%;
+  }
+  
+  .pull-right {
+    float: right;
+  }
+  
+  .table-body {
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }
+  /* .float-right{
+      display:flex;
+      justify-content: flex-end;
+  } */
